@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
+  position: relative;
+  max-width: 375px;
+  max-height: 667px;
+}
+
+/* Status bar */
+.status {
+  position: absolute;
+  height: 24px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+/* Topic */
+.appInfo {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.topic {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FCFCFC;
+  margin-top: 30%;
+  margin-left: 18%;
+}
+
+.desc {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FCFCFC;
+  margin-top: 52%;
+  margin-left: 18%;
+}
+/* Input area */
+.logInFields {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  position: absolute;
+  background: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forgotPass {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #FCFCFC;
+}
+/* Button area */
+
+.logInButton {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+}
+
+button {
+  position: absolute;  
+  background: #FF473A;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
