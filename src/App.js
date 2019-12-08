@@ -5,7 +5,8 @@ import LogIn from 'Components/loginPage/logIn'
 import Home from 'Components/homePage/home'
 import Exhibition from 'Components/exhibition/exhibition';
 import Shop from 'Components/shop/shop';
-import Collections from 'Components/collections/collections'
+import Collections from 'Components/collections/collections';
+import Plan from 'Components/plan/plan';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/exhibition" component={Exhibition} />
           <Route path="/shop" component={Shop} />
           <Route path="/collections" component={Collections} />
+          <Route path="/plan" component={Plan} />
         </Switch>
       </div>
     </Router>

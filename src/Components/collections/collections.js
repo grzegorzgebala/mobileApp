@@ -21,7 +21,7 @@ function Collections() {
             <Navbar />
             <div className="siteTitle">Collections</div>
             <div className="collectionsSearch">
-                <input type="text" name="search" value="Explore the Collection" />
+                <input type="text" name="search" text="Explore the Collection" />
                 <SearchIcon />
             </div>
             <div className="advancedSearch">Advanced Search</div>
