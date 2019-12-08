@@ -13,13 +13,13 @@ function App() {
         <div className="desc">151 3rd St San Francisco, CA 94103</div>
       </div>
       <div className="logInFields">
-        <input></input>
-        <input></input>
+        <input className="email" type="text" name="email" value="Email adress"/>
+        <input className="password" type="text" name="password" value="Password" />
         <div className="forgotPass">Forgot your password?</div>
       </div>
       <div className="logInButton">
-        <button></button>
-        <div className="forgotPass">Don't have an account</div>
+        <button>Log in</button>
+        <div className="account">Don't have an account</div>
       </div>
     </div>
   );
