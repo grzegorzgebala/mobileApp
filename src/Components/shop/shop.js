@@ -19,7 +19,7 @@ function Shop() {
                 <ShopImage />
             </div>
             <ShopCarousele />
-            <div className="shopTitle">Braoun Classic Watch</div>
+            <div className="shopTitle">Braun Classic Watch</div>
             <div className="shopescription">
                 <p className="shopescription">
                     This Braun watch is a reissue of the original 1970's design from renowned design team Dietrich Lubs and Dieter Rams, 
