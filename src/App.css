@@ -3,6 +3,10 @@
   justify-content: flex-start;
   flex-direction: column;
   position: relative;
-  max-width: 375px;
+  width: 375px;
+  height: 667px;
   max-height: 667px;
+  max-width: 375px;
+  overflow: hidden;
+  border: 1px solid;
 }

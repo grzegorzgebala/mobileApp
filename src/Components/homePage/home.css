@@ -13,7 +13,7 @@
     padding-left: 13px;
 }
 
-.exhibition {
+.smallDesc {
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -32,7 +32,7 @@
     font-size: 24px;
     line-height: 29px;
     display: flex;
-    width: 120px;
+    width: 40%;
     align-items: center;
     color: #000000;
 }
@@ -55,11 +55,17 @@
     font-size: 10px;
     line-height: 12px;
     color: #979797;
+    margin-top: 2%;
 }
 
 /* Button */
+.buttonBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 12% auto;
+}
 button {
-    margin: 40px auto;
     background: #FF473A;
     width: 255px;
     height: 42px;
@@ -72,16 +78,29 @@ button {
 
 .statusBar {
     display: flex;
-    margin-top: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+.object {
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 
 .localisatorDesc {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
     color: #FF473A;
+}
+
+.localisatorDesc p {
+    margin: 0;
 }

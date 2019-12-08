@@ -22,7 +22,7 @@ function Navbar() {
                         <div className="icon">
                             <Search />
                         </div>
-                        <input className="search" type="text" name="search" text="Search" />
+                        <input className="search" type="text" name="search" defaultValue="Search" />
                     </li>
                     <li>
                         <div className="icon">

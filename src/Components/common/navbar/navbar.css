@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    padding: 5px 5px;
 }
 
 .descMenu {
@@ -24,10 +25,10 @@
     display: flex;
     box-sizing: border-box;
     position: absolute;
-    top: 20px;
+    top: 24px;
     left: 0;
     height: 100%;
-    width: 300px;
+    width: 80%;
     background: #FF473A;
     box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
     transform: translateX(-100%);

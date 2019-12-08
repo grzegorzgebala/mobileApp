@@ -1,3 +1,6 @@
+.background {
+    position: absolute;
+}
 /* Status bar */
 .status {
     position: absolute;
@@ -17,37 +20,42 @@
 }
 
 .topic {
-    position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 44px;
     color: #FCFCFC;
-    margin-top: 70%;
     margin-left: 18%;
+    margin-top: 41%;
+    margin-bottom: 3%;
+}
+
+.topic p {
+    margin: 0;
 }
 
 .desc {
-    position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    display: flex;
-    align-items: center;
     color: #FCFCFC;
-    margin-top: 100%;
     margin-left: 18%;
 }
+
+.desc p {
+    margin: 0;
+}
+
 /* Input area */
 .logInFields {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     position: absolute;
-    margin-top: 110%;
+    margin-top: 90%;
     margin-left: 17%;
 }
 
@@ -86,12 +94,12 @@
 }
 
 /* Button area */
-.logInButton {
+.logInButtonContainer {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     position: absolute;
-    margin-top: 150%;
+    margin-top: 130%;
     margin-left: 17%;
 }
 
@@ -107,17 +115,14 @@
 
 .account {
     position: absolute;
-    width: 250px;
-    height: 24px;
-    bottom: -2.02px;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
-    top: 0;
     line-height: 12px;
     display: flex;
     align-items: center;
     color: #FCFCFC;
-    top: 40px;
+    margin-top: 17%;
 }

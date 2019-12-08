@@ -10,15 +10,22 @@ function LogIn() {
             <Background className="background" />
             <StatusBar className="status" />
             <div className="appInfo">
-                <div className="topic">YOUR ART MUSEUM</div>
-                <div className="desc">151 3rd St San Francisco, CA 94103</div>
+                <div className="topic">
+                    <p>YOUR</p> 
+                    <p>ART</p> 
+                    <p>MUSEUM</p>
+                </div>
+                <div className="desc">
+                    <p>151 3rd St</p> 
+                    <p>San Francisco, CA 94103</p>
+                </div>
             </div>
             <div className="logInFields">
-                <input className="email" type="text" name="email" value="Email adress"/>
-                <input className="password" type="text" name="password" value="Password" />
+                <input className="email" type="text" name="email" defaultValue="Email adress"/>
+                <input className="password" type="text" name="password" defaultValue="Password" />
                 <div className="forgotPass">Forgot your password?</div>
             </div>
-            <div className="logInButton">
+            <div className="logInButtonContainer">
                 <Link to="/home">
                     <button type="buttonLogIn">Log in</button>
                 </Link>

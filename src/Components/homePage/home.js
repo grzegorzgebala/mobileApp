@@ -12,19 +12,31 @@ function Home() {
         <div>
             <StatusBar className="status" />
             <Navbar />
-            <HomePicture className="background" />
+            <HomePicture />
             <div className="futuredExhibition">
-                <div className="exhibition">EXHIBITION</div>
+                <div className="smallDesc">EXHIBITION</div>
                 <div className="title">MASTERS OLD AND NEW</div>
                 <div className="date">APRIL 15 - SEPTEMBER 20</div>
                 <div className="where">FLOOR 5</div>
             </div>
-            <button>Plan Your Visit</button>
+            <div className="buttonBox">
+                <button>Plan Your Visit</button>
+            </div>
             <div className="statusBar">
-                <Localisator />
-                <div className="localisatorDesc">151 3rd St San Francisco, CA 94103</div>
-                <Clock />
-                <div className="localisatorDesc">Open today 10:00am - 5:30pm</div>
+                <div className="object">
+                    <Localisator />
+                    <div className="localisatorDesc">
+                        <p>151 3rd St</p> 
+                        <p>San Francisco, CA 94103</p>
+                    </div>
+                </div>
+                <div className="object">
+                    <Clock />
+                    <div className="localisatorDesc">
+                        <p>Open today</p> 
+                        <p>10:00am - 5:30pm</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
