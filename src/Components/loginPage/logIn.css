@@ -1,0 +1,123 @@
+/* Status bar */
+.status {
+    position: absolute;
+    height: 24px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+/* Topic */
+.appInfo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.topic {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FCFCFC;
+    margin-top: 70%;
+    margin-left: 18%;
+}
+
+.desc {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #FCFCFC;
+    margin-top: 100%;
+    margin-left: 18%;
+}
+/* Input area */
+.logInFields {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 17%;
+}
+
+.email {
+    position: absolute;
+    width: 240px;
+    height: 42px;
+    padding-left: 10px;
+    top: 0;
+    background: #FFFFFF;
+}
+
+.password {
+    position: absolute;
+    width: 240px;
+    height: 42px;
+    padding-left: 10px;
+    top: 50px;
+    background: #FFFFFF;
+}
+
+.forgotPass {
+    position: absolute;
+    width: 250px;
+    height: 24px;
+    bottom: 0px;
+    top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    text-align: right;
+    color: #FCFCFC;
+}
+
+/* Button area */
+.logInButton {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 150%;
+    margin-left: 17%;
+}
+
+.buttonLogIn {
+    position: absolute;  
+    background: #FF473A;
+    width: 255px;
+    height: 42px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.account {
+    position: absolute;
+    width: 250px;
+    height: 24px;
+    bottom: -2.02px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    top: 0;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #FCFCFC;
+    top: 40px;
+}

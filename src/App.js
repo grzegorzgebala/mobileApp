@@ -1,27 +1,19 @@
 import React from 'react';
 import './App.css';
-import { ReactComponent as Background } from "./Background/1_loginPage/background.svg";
-import { ReactComponent as StatusBar } from "./Background/0_common/statusBar.svg";
+import LogIn from 'Components/loginPage/logIn'
+import Home from 'Components/homePage/home'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="container">
-      <Background className="background" />
-      <StatusBar className="status" />
-      <div className="appInfo">
-        <div className="topic">YOUR ART MUSEUM</div>
-        <div className="desc">151 3rd St San Francisco, CA 94103</div>
+    <Router>
+      <div className="container">
+        <Switch>
+          <Route path="/" exact component={LogIn} />
+          <Route path="/home" component={Home} />
+        </Switch>
       </div>
-      <div className="logInFields">
-        <input className="email" type="text" name="email" value="Email adress"/>
-        <input className="password" type="text" name="password" value="Password" />
-        <div className="forgotPass">Forgot your password?</div>
-      </div>
-      <div className="logInButton">
-        <button>Log in</button>
-        <div className="account">Don't have an account</div>
-      </div>
-    </div>
+    </Router>
   );
 }
 

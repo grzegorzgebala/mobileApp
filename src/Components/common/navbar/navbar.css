@@ -1,0 +1,32 @@
+/* manu */
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descMenu {
+    width: 10%;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.hamburgerMenu {
+    padding-right: 5px;
+}
+
+.navigationBar {
+    height: 20px;
+    width: 100%;
+    background: red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
