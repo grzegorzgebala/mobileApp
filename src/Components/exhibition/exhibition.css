@@ -1,0 +1,57 @@
+/* Status bar */
+.status {
+    position: relative;
+    height: 24px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.futuredExhibition {
+    padding-left: 13px;
+}
+
+.exhibition {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #979797;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    width: 120px;
+    align-items: center;
+    color: #000000;
+}
+
+.date {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FF473A;
+}
+
+.where {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #979797;
+}

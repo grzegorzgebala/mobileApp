@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 .descMenu {
@@ -19,14 +20,79 @@
     padding-right: 5px;
 }
 
-.navigationBar {
-    height: 20px;
-    width: 100%;
-    background: red;
+.siteMenu {
     display: flex;
-    justify-content: flex-start;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    background: #FF473A;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+    transform: translateX(-100%);
+    transition: 0.3s transform ease-in-out;
+}
+
+.hamburgerMenu:active ~ .siteMenu {
+    transform: translateX(0);
+}
+
+.siteMenu input {
+    height: 42px;
+    width: 70%;
+    background: #FF473A;
+    border: 2px solid #FCFCFC;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.siteMenu ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.siteMenu li {
+    display: flex;
     align-items: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+    flex-basis: 100%;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+}
+
+.siteMenu a {
+    display: flex;
     padding: 10px;
     box-sizing: border-box;
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
 
+.siteMenu a:hover {
+    cursor: pointer;
 }

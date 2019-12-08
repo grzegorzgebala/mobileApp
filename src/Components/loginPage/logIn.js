@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 function LogIn() {
     return (
-        <div className="container">
+        <div>
             <Background className="background" />
             <StatusBar className="status" />
             <div className="appInfo">

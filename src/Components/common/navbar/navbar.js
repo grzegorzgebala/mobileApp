@@ -13,56 +13,68 @@ import { ReactComponent as Shop } from "Background/3_menu/menuIconShop.svg";
 
 function Navbar() {
     return (
-        <div className="container">
-            <nav className="navigationBar">
-                <div className="descMenu">THE ART MUSEUM</div>
-                <HamburgerMenu className="hamburgerMenu"/>
-                <div className="siteMenu">
-                    <ul>
-                        <li>
+        <nav className="navigationBar">
+            <div className="descMenu">THE ART MUSEUM</div>
+            <HamburgerMenu className="hamburgerMenu"/>
+            <div className="siteMenu">
+                <ul>
+                    <li>
+                        <div className="icon">
                             <Search />
-                            <input className="search" type="text" name="search" value="Search"/>
-                        </li>
-                        <li>
+                        </div>
+                        <input className="search" type="text" name="search" value="Search"/>
+                    </li>
+                    <li>
+                        <div className="icon">
                             <Events />
-                            <a href="#exhibitions">
-                                Exhibitions and Events
-                            </a>
-                        </li>
-                        <li>
+                        </div>
+                        <a href="#exhibitions">
+                            Exhibitions and Events
+                        </a>
+                    </li>
+                    <li>
+                        <div className="icon">
                             <Artist />
-                            <a href="#artists">
-                                Artists and Artworks
-                            </a>
-                        </li>
-                        <li>
+                        </div>
+                        <a href="#artists">
+                            Artists and Artworks
+                        </a>
+                    </li>
+                    <li>
+                        <div className="icon">
                             <Collections />
-                            <a href="#collections">
-                                Collections
-                            </a>
-                        </li>
-                        <li>
+                        </div>
+                        <a href="#collections">
+                            Collections
+                        </a>
+                    </li>
+                    <li>
+                        <div className="icon">
                             <Visit />
-                            <a href="#exhibitions">
-                                Plan Your Visit
-                            </a>
-                        </li>
-                        <li>
+                        </div>
+                        <a href="#exhibitions">
+                            Plan Your Visit
+                        </a>
+                    </li>
+                    <li>
+                        <div className="icon">
                             <Member />
-                            <a href="#member">
-                                Become a Member
-                            </a>
-                        </li>
-                        <li>
+                        </div>
+                        <a href="#member">
+                            Become a Member
+                        </a>
+                    </li>
+                    <li>
+                        <div className="icon">
                             <Shop />
-                            <a href="#shop">
-                                Shop
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+                        </div>
+                        <a href="#shop">
+                            Shop
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     );
 }
 

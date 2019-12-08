@@ -9,7 +9,7 @@ import Navbar from 'Components/common/navbar/navbar';
 
 function Home() {
     return (
-        <div className="container">
+        <div>
             <StatusBar className="status" />
             <Navbar />
             <HomePicture className="background" />
