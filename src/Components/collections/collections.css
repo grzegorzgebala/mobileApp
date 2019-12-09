@@ -1,0 +1,56 @@
+/* search */
+.collectionsSearch {
+    width: 100%;
+    text-align: center;
+}
+.collectionsSearch input{
+    width: 350px;
+    height: 48px;
+    left: 12px;
+    right: 15px;
+    top: 12px;
+    border: 2px solid #FF473A;
+    box-sizing: border-box;
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FF473A;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 20px;
+    top: 95px;
+}
+
+.advancedSearch {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #FF473A;
+    padding: 3%;
+}
+
+.colectionItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.itemDescription {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF473A;
+    width: 100px;
+    margin-top: 2px;
+    
+}

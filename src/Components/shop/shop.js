@@ -6,7 +6,6 @@ import Navbar from 'Components/common/navbar/navbar';
 import { ReactComponent as ShopImage } from "Background/5_shop/shopImage.svg";
 import { ReactComponent as ShopCarousele } from "Background/5_shop/shopCarousele.svg";
 import { ReactComponent as Vector } from "Background/5_shop/vector.svg";
-import { ReactComponent as RectangleShop } from "Background/5_shop/rectangleShop.svg";
 
 
 function Shop() {

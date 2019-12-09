@@ -21,14 +21,14 @@ function Collections() {
             <Navbar />
             <div className="siteTitle">Collections</div>
             <div className="collectionsSearch">
-                <input type="text" name="search" text="Explore the Collection" />
-                <SearchIcon />
+                <input type="text" name="search" defaultValue="Explore the Collection" />
+                <SearchIcon className="searchIcon"/>
             </div>
             <div className="advancedSearch">Advanced Search</div>
             <div className="colectionItems">
                 <div className="item">
                     <CollectionItem1 />
-                    <p className="itemDescription">DECORATIVE ARTS AND CRAFTS</p>
+                    <p className="itemDescription">DECORATIVE ARTS & CRAFTS</p>
                 </div>
                 <div className="item">
                     <CollectionItem2 />
