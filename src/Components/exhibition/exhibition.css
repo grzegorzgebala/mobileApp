@@ -7,7 +7,15 @@
     top: 0px;
     background: #000000;
 }
-
+/* site title */
+.siteTitle {
+    position: absolute;
+    color: red;
+    font-size: 21px;
+    top: 40px;
+    left: calc(50% - 175px/2);
+}
+/* Information site Retrospective */
 .futuredExhibition {
     padding-left: 13px;
 }
@@ -54,4 +62,11 @@
     font-size: 10px;
     line-height: 12px;
     color: #979797;
+}
+
+/* Carousele */
+.carousele {
+    display: flex;
+    justify-content: center;
+    
 }

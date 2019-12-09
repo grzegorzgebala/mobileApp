@@ -7,8 +7,10 @@ import { ReactComponent as ActiveImage } from "Background/4_exhibition/activeIma
 import { ReactComponent as Markupleft } from "Background/4_exhibition/markupLeft.svg";
 import { ReactComponent as MarkupRight } from "Background/4_exhibition/markupRight.svg";
 import { ReactComponent as MarkupSecondRight } from "Background/4_exhibition/markupSecondRight.svg";
-import { ReactComponent as Carousele } from "Background/4_exhibition/carousele.svg";
+// import { ReactComponent as Carousele } from "Background/4_exhibition/carousele.svg";
 import { ReactComponent as Dropdown } from "Background/4_exhibition/dropDown.svg";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Exhibition() {
     return (
@@ -23,11 +25,24 @@ function Exhibition() {
                 <div className="where">FLOOR 3</div>
             </div>
             <div className="carousele">
-                <Markupleft />
-                <ActiveImage />
-                <MarkupRight />
-                <MarkupSecondRight />
-                <Carousele />
+                <Carousel>
+                    <div>
+                        <ActiveImage />
+                        <p className="legend">Legend 1</p>
+                    </div>
+                    <div>
+                        <img src="Background/4_exhibition/activeImage.svg" alt="b"/>
+                        <p className="legend">Legend 2</p>
+                    </div>
+                    <div>
+                        <img src="Background/4_exhibition/activeImage.svg" alt="c"/>
+                        <p className="legend">Legend 3</p>
+                    </div>
+                </Carousel> 
+                    {/* <Markupleft />
+                    <ActiveImage />
+                    <MarkupRight />
+                    <MarkupSecondRight /> */}
             </div>
             <div className="pictureDescription">Abandoned Dust Bowl Home” Gelatin silver print about 1935 - 1940</div>
             <div className="biography">
@@ -49,5 +64,4 @@ function Exhibition() {
         </div>
     );
 }
-
 export default Exhibition;
