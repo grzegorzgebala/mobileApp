@@ -18,35 +18,33 @@ function Shop() {
             <div className="shopImage">
                 <ShopImage />
             </div>
-            <ShopCarousele />
+            <ShopCarousele className="shopCarousele"/>
             <div className="shopTitle">Braun Classic Watch</div>
-            <div className="shopescription">
-                <p className="shopescription">
+            <div className="shopDescArea">
+                <p className="shopDesc">
                     This Braun watch is a reissue of the original 1970's design from renowned design team Dietrich Lubs and Dieter Rams, 
                     both of whom have work featured in the Museum’s collection. The large watch features a numbered face, 
                     and the smaller watch has only index lines. Made of a matte stainless-steel case, black dial, mineral glass, 
                     a three-hand quartz movement, and a leather band. Water-resistant.
                 </p>
-                <Vector />
+                <div className="vector">
+                    <Vector />
+                </div>
             </div>
             <div className="validator">
                 <div className="prices">
-                    <div>$160.00</div>
-                    <div>$140.00 Member Price</div>
+                    <div className="priceTop">$160.00</div>
+                    <div className="priceBottom">$140.00 Member Price</div>
                 </div>
                 <div className="sum">
-                    <div>
-                        <RectangleShop className="rectangle" />
-                        <div className="sign">-</div>
-                    </div>
-                    <div>0</div>
-                    <div>
-                        <RectangleShop className="rectangle" />
-                        <div className="sign">+</div>
-                    </div>
+                    <div className="sign">-</div>
+                    <div className="number">0</div>
+                    <div className="sign">+</div>
                 </div>
             </div>
-            <button type="buttonLogIn">Add to Cart</button>
+            <div className="button">
+                <button type="buttonLogIn">Add to Cart</button>
+            </div>
         </div>
     );
 }

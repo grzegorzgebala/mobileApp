@@ -1,0 +1,96 @@
+.shopImage {
+    text-align: center;
+}
+
+.shopCarousele {
+    width:100%;
+    text-align: center;
+}
+
+.shopTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+
+.shopDescArea {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    padding-bottom: 0;
+}
+
+.shopDesc {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    color: #979797;
+    overflow: hidden;
+    height: 75px;
+    margin: 0;
+}
+
+.vector {
+    padding-top: 68px;
+}
+
+/* Price */
+.validator {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.priceTop {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #050505;
+}
+
+.priceBottom {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #979797;
+}
+
+.sum {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    width: 20%;
+    align-items: center;
+}
+
+.number {
+    color: #979797;
+}
+
+.sign {
+    border: 1px solid #979797;
+    color: #979797;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}

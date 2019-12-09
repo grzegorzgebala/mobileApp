@@ -12,8 +12,10 @@
     position: absolute;
     color: red;
     font-size: 21px;
+    text-align: center;
     top: 40px;
-    left: calc(50% - 175px/2);
+    width: 100%;
+    text-align: center;
 }
 /* Information site Retrospective */
 .futuredExhibition {
