@@ -86,7 +86,7 @@ button {
 .object {
     display: flex;
     justify-content: center;
-    align-items: start;
+    /* align-items: start; */
 }
 
 .localisatorDesc {

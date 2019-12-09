@@ -68,5 +68,50 @@
 .carousele {
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    margin-top: 3%;
+}
+/* picture description - should be in carusele */
+.pictureDescription {
+    position: absolute;
+    bottom: 140px;
+    left: 33%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+    color: #979797;
+}
+
+.pictureDescription p{
+    margin: 0;
+}
+
+/* Biography title */
+.biography {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 6%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #979797;
+    margin-top: 4%;
+}
+
+/* article */
+.history {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    color: #979797;
+    padding-left: 6%;
+    text-align: left;
+    margin-top: 4%;
 }
