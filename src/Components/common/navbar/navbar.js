@@ -1,7 +1,6 @@
 import React from 'react';
 import './navbar.css';
 import { ReactComponent as HamburgerMenu } from "Background/0_common/hamburgerMenu.svg";
-// import icons for menu
 import { ReactComponent as Search } from "Background/3_menu/menuIconSearch.svg";
 import { ReactComponent as Events } from "Background/3_menu/menuIconEvents.svg";
 import { ReactComponent as Artist } from "Background/3_menu/menuIconArtists.svg";
@@ -9,7 +8,6 @@ import { ReactComponent as Collections } from "Background/3_menu/menuIconCollect
 import { ReactComponent as Visit } from "Background/3_menu/menuIconVisit.svg";
 import { ReactComponent as Member } from "Background/3_menu/menuIconMember.svg";
 import { ReactComponent as Shop } from "Background/3_menu/menuIconShop.svg";
-
 
 function Navbar() {
     return (

@@ -2,11 +2,6 @@ import React from 'react';
 import './plan.css';
 import { ReactComponent as StatusBar } from "Background/0_common/statusBar.svg";
 import Navbar from 'Components/common/navbar/navbar';
-// items
-import { ReactComponent as RectangleShop } from "Background/5_shop/rectangleShop.svg";
-
-
-
 
 function Plan() {
     return (
@@ -24,57 +19,47 @@ function Plan() {
                 <div className="day">Tomorrow</div>
                 <div className="day">Other</div>
             </div>
-            <div>March 22, 2016</div>
-            <div>Open 10:30am-5:30pm</div>
-            <div className="row">
+            <div className="information">
+                <div>March 22, 2016</div>
+                <div>Open 10:30am-5:30pm</div>
+            </div>
+            <div className="row row-first">
                 <div className="persons">Adults</div>
                 <div className="sum">
-                    <div>
-                        <RectangleShop className="rectangle" />
-                        <div className="sign">-</div>
-                    </div>
-                    <div>2</div>
-                    <div>
-                        <RectangleShop className="rectangle" />
-                        <div className="sign">+</div>
-                    </div>
+                    <div className="sign">-</div>
+                    <div className="number">2</div>
+                    <div className="sign">+</div>
                 </div>
             </div>
             <div className="row">
-                <div className="persons">Seniors</div>
-                <div>65+ with ID</div>
+                <div className="persons">
+                    <p>Seniors</p>
+                    <p className="age">65+ with ID</p>
+                </div>
                 <div className="sum">
-                    <div>
-                        <RectangleShop className="rectangle" />
-                        <div className="sign">-</div>
-                    </div>
-                    <div>0</div>
-                    <div>
-                        <RectangleShop className="rectangle" />
-                        <div className="sign">+</div>
-                    </div>
+                    <div className="sign">-</div>
+                    <div className="number">0</div>
+                    <div className="sign">+</div>
                 </div>
             </div>
-            <div className="row">
-                <div className="persons">Students</div>
-                <div>with ID</div>
+            <div className="row row-last">
+                <div className="persons">
+                    <p>Students</p>
+                    <p className="age">with ID</p>
+                </div>
                 <div className="sum">
-                    <div>
-                        <RectangleShop className="rectangle" />
-                        <div className="sign">-</div>
-                    </div>
-                    <div>0</div>
-                    <div>
-                        <RectangleShop className="rectangle" />
-                        <div className="sign">+</div>
-                    </div>
+                    <div className="sign">-</div>
+                    <div className="number">0</div>
+                    <div className="sign">+</div>
                 </div>
             </div>
             <div className="planTotal">
                 <div>Total</div>
                 <div>$16</div>
             </div>
-            <button type="buttonLogIn">Continue to payment</button>
+            <div className="button">
+                <button type="buttonLogIn">Continue to payment</button>
+            </div>
         </div>
     );
 }

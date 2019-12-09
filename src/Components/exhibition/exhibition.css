@@ -16,7 +16,12 @@
     top: 40px;
     width: 100%;
     text-align: center;
+    height: 40px;
+    width: 150px;
+    left: 50%;
+    margin-left: -75px;
 }
+
 /* Information site Retrospective */
 .futuredExhibition {
     padding-left: 13px;

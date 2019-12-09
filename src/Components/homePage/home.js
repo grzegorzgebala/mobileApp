@@ -1,6 +1,5 @@
 import React from 'react';
 import './home.css';
-// import LogIn from './Components/logIn'
 import { ReactComponent as HomePicture } from "Background/2_homeSite/homePicture.svg";
 import { ReactComponent as StatusBar } from "Background/0_common/statusBar.svg";
 import { ReactComponent as Localisator } from "Background/2_homeSite/localisator.svg";

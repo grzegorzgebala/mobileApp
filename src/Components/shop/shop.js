@@ -2,11 +2,9 @@ import React from 'react';
 import './shop.css';
 import { ReactComponent as StatusBar } from "Background/0_common/statusBar.svg";
 import Navbar from 'Components/common/navbar/navbar';
-// images import
 import { ReactComponent as ShopImage } from "Background/5_shop/shopImage.svg";
 import { ReactComponent as ShopCarousele } from "Background/5_shop/shopCarousele.svg";
 import { ReactComponent as Vector } from "Background/5_shop/vector.svg";
-
 
 function Shop() {
     return (

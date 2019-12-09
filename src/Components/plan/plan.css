@@ -1,0 +1,101 @@
+.planTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0;
+}
+
+.titleDesc {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF473A;
+    width: 70%;
+    margin-top: 0;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D4D4D4;
+    border-bottom: 2px solid #D4D4D4;
+}
+
+.day:hover {
+    border-bottom: 2px solid red;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    transform: translateY(-5px);
+    color: black;
+}
+
+.information {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.row-first {
+    margin-top: 30px;
+}
+
+.row-last {
+    margin-bottom: 30px;
+}
+
+.persons {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.persons p{
+    margin: 0;
+}
+
+.age {
+    color: #D4D4D4;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.planTotal {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    border-top: 2px solid #FF473A;
+    width: 80%;
+    margin: 30px auto;
+}
+

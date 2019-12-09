@@ -2,7 +2,6 @@ import React from 'react';
 import './exhibition.css';
 import { ReactComponent as StatusBar } from "Background/0_common/statusBar.svg";
 import Navbar from 'Components/common/navbar/navbar';
-// images import
 import { ReactComponent as WholeCarousele } from "Background/4_exhibition/wholeCarousele.svg";
 import { ReactComponent as Dropdown } from "Background/4_exhibition/dropDown.svg";
 
@@ -45,4 +44,5 @@ function Exhibition() {
         </div>
     );
 }
+
 export default Exhibition;

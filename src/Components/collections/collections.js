@@ -2,17 +2,13 @@ import React from 'react';
 import './collections.css';
 import { ReactComponent as StatusBar } from "Background/0_common/statusBar.svg";
 import Navbar from 'Components/common/navbar/navbar';
-// images import
 import { ReactComponent as SearchIcon } from "Background/6_collections/searchIcon.svg";
-// items
 import { ReactComponent as CollectionItem1 } from "Background/6_collections/collectionImage1.svg";
 import { ReactComponent as CollectionItem2 } from "Background/6_collections/collectionImage2.svg";
 import { ReactComponent as CollectionItem3 } from "Background/6_collections/collectionImage3.svg";
 import { ReactComponent as CollectionItem4 } from "Background/6_collections/collectionImage4.svg";
 import { ReactComponent as CollectionItem5 } from "Background/6_collections/collectionImage5.svg";
 import { ReactComponent as CollectionItem6 } from "Background/6_collections/collectionImage6.svg";
-
-
 
 function Collections() {
     return (
