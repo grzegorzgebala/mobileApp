@@ -35,10 +35,6 @@
     transition: 0.3s transform ease-in-out;
 }
 
-.hamburgerMenu:active ~ .siteMenu {
-    transform: translateX(0);
-}
-
 .siteMenu input {
     height: 42px;
     width: 70%;
@@ -96,4 +92,8 @@
 
 .siteMenu a:hover {
     cursor: pointer;
+}
+
+.active ~ .siteMenu{
+    transform: translateX(0);
 }

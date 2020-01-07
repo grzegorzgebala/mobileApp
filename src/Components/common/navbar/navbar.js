@@ -8,12 +8,24 @@ import { ReactComponent as Collections } from "Background/3_menu/menuIconCollect
 import { ReactComponent as Visit } from "Background/3_menu/menuIconVisit.svg";
 import { ReactComponent as Member } from "Background/3_menu/menuIconMember.svg";
 import { ReactComponent as Shop } from "Background/3_menu/menuIconShop.svg";
+import { Link } from 'react-router-dom';
 
-function Navbar() {
-    return (
-        <nav className="navigationBar">
+class Navbar extends React.Component {
+    state = {
+        active: ''
+    }
+    addActiveClass = (e) => {
+        const clicked = e.target.id
+        if(this.state.active === clicked) { 
+            this.setState({active: ''});
+        } else {
+            this.setState({active: clicked})
+        }
+    }
+    render() {
+        return <nav className="navigationBar">
             <div className="descMenu">THE ART MUSEUM</div>
-            <HamburgerMenu className="hamburgerMenu"/>
+            <HamburgerMenu className={`hamburgerMenu ${this.state.active === "first"? 'active': ''}`} id="first" onClick={this.addActiveClass}/>
             <div className="siteMenu">
                 <ul>
                     <li>
@@ -26,33 +38,33 @@ function Navbar() {
                         <div className="icon">
                             <Events />
                         </div>
-                        <a href="#exhibitions">
+                        <Link to="/exhibition">
                             Exhibitions and Events
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <div className="icon">
                             <Artist />
                         </div>
-                        <a href="#artists">
+                        <Link to="/home">
                             Artists and Artworks
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <div className="icon">
                             <Collections />
                         </div>
-                        <a href="#collections">
+                        <Link to="/collections">
                             Collections
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <div className="icon">
                             <Visit />
                         </div>
-                        <a href="#exhibitions">
+                        <Link to="/plan">
                             Plan Your Visit
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <div className="icon">
@@ -66,14 +78,13 @@ function Navbar() {
                         <div className="icon">
                             <Shop />
                         </div>
-                        <a href="#shop">
+                        <Link to="/shop">
                             Shop
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
         </nav>
-    );
-}
-
+    };
+};
 export default Navbar;
